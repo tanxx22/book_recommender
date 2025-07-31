@@ -6,7 +6,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 books = pd.read_csv("books.csv")
 ratings = pd.read_csv("ratings.csv")
 
-st.title("📚 Simple Book Recommender (No ML, Just Math)")
+st.title("📚 Simple Book Recommender (No MachineLearning, Just Math)")
 
 # Merge books and ratings
 book_ratings = pd.merge(ratings, books, on='book_id')
